@@ -1,0 +1,99 @@
+@import "../../../config/variables";
+
+.wrapper {
+  align-items: center;
+  display: flex;
+
+  a {
+    color: $grey;
+
+    &:hover {
+      color: $brand-primary;
+    }
+  }
+}
+
+.navigation {
+  a:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+.name {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+
+  h3 {
+    font-size: 25px !important;
+    font-weight: normal;
+    margin-bottom: 0 !important;
+  }
+
+  h4 {
+    font-weight: 200;
+    color: grey;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  a {
+    &:hover,
+    &:focus {
+      color: $body-color;
+      text-decoration: none;
+    }
+  }
+}
+
+.socialMedia {
+  a {
+    font-size: 1.5rem;
+  }
+
+  a:not(:first-child) {
+    margin-left: 1rem;
+  }
+}
+
+.mobileNav {
+  background-color: $background-color;
+  display: none;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  @include for-phone-only {
+    display: block;
+  }
+
+  a {
+    color: #fff;
+    font-size: 200%;
+    margin-bottom: 2rem;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.mobileNavName {
+  left: 1rem;
+  position: fixed;
+  top: 1rem;
+
+  h3 {
+    font-size: 23px !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+.mobileNavSocialMedia {
+  font-size: 1.5rem;
+  margin-top: 6rem;
+
+  a:not(:first-child) {
+    margin-left: 1.5rem;
+  }
+}
