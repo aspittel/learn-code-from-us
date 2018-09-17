@@ -2,22 +2,25 @@
 
 .base {
   display: grid;
-  grid-column-gap: $gutter;
-  grid-row-gap: $gutter;
-  grid-template-columns: repeat(4,1fr);  
-  max-width: $content-width;
-  margin: 0 auto;
+  grid-gap: $gutter;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+ 
+  margin-left: 10px;
+  margin-right: 10px;
 
-  @media only screen and (max-width: 1700px) {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  @media only screen and (max-width: 400px) {
+    display: block;
 
-  @include for-tablet-landscape-down() {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  @include for-phone-only() {
-    grid-template-columns: repeat(1, 1fr);
+    .content {
+      height: 500px;
+      position: relative;
+    }
+
+    .wrapper {
+      &:before {
+        padding-top: 10px;
+      }
+    }
   }
 }
 
@@ -74,7 +77,7 @@
   width: 75%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
@@ -92,7 +95,7 @@ $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
   padding: 4px 6px;
   font-size: 12px;
   margin-right: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
   border-radius: 20px;
 }
 
