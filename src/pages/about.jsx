@@ -15,9 +15,6 @@ const About = () => (
       <p>
         If you would like to be included on this list and identify as part of an underrepresented group in tech, please fill out <a href="https://airtable.com/shrYbUMMlR1iVpA1l">this form</a>!
       </p>
-      <p>
-         Underrepresented groups in tech include but are not limited to women, 
-      </p>
     </Container>
     <Footer />
   </div>
