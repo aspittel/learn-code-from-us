@@ -5,9 +5,9 @@ import styles from './SiteLink.module.scss'
 const SiteLink = ({ children, link, tooltipText }) => {
   if (link && link !== "#") {
     return (
-      <Link target="_blank" to={"//" + link} className={styles.link} data-tip={tooltipText}>
+      <a target="_blank" href={link} className={styles.link} data-tip={tooltipText}>
         {children}
-      </Link>
+      </a>
     )
   }
   return ''
