@@ -20,7 +20,11 @@ export default class ProjectListing extends React.PureComponent {
 
   render() {
     const profiles = this.shuffle()
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    let isMobile = false
+    
+    if (typeof window !== 'undefined') {
+      isMobile = navigator && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    }
 
     return (
       <div className={styles.base}>
