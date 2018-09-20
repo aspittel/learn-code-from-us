@@ -7,7 +7,7 @@ import ReactTooltip from 'react-tooltip'
 export default class ProjectListing extends React.PureComponent {
   shuffle() {
     // randomize the order of the profiles
-    let a = this.props.projectEdges
+    let a = [...this.props.projectEdges]
     var j, x, i
     for (i = a.length - 1; i > 0; i--) {
         j = Math.floor(Math.random() * (i + 1))
@@ -20,6 +20,8 @@ export default class ProjectListing extends React.PureComponent {
 
   render() {
     const profiles = this.shuffle()
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+
     return (
       <div className={styles.base}>
         {profiles.map(project => (
@@ -49,7 +51,9 @@ export default class ProjectListing extends React.PureComponent {
                 <div className={styles.tag} key={tag}>{tag}</div>
               ))}</div>
             </div>
-            <ReactTooltip />
+
+            <ReactTooltip disable={isMobile} />
+
           </div>
         ))}
       </div>
