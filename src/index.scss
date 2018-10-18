@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto");
+
+body {
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+::-moz-selection {
+  background-color: paleturquoise;
+}
+
+::selection {
+  background-color: paleturquoise;
+}

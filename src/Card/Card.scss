@@ -1,0 +1,69 @@
+
+
+.content {
+  height: 100%;
+  max-width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  padding: 20px;
+  border: 1.5px solid lightgrey;
+  border-radius: 1%;
+
+  h3 {
+    color: #444;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+  }
+
+  h3 {
+    font-weight: lighter;
+    font-size: 16px;
+  }
+
+  svg {
+    width: 30px;
+  }
+
+  @media (max-width: 400px) {
+    margin-bottom: 10px;
+  }
+}
+
+
+$colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
+
+.tags {
+  @for $i from 1 through length($colors) {
+    div:nth-child(#{length($colors)}n+#{$i}) {
+        background: nth($colors, $i)
+    }
+  }
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 6px;
+  font-size: 12px;
+  margin-right: 6px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.profileImage {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}

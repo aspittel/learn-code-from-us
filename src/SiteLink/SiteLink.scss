@@ -1,0 +1,23 @@
+.links {
+  width: 75%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+
+  svg {
+    color: #7b8acc;
+    height: 24;
+    width: 24;
+    size: 24;
+  }
+}
+
+.overlay {
+  background-color: #7b8acc;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
