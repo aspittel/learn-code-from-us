@@ -11,3 +11,12 @@
     text-decoration: none;
   }
 }
+
+.aboutTransition-appear {
+  opacity: 0.01;
+}
+
+.aboutTransition-appear.aboutTransition-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
