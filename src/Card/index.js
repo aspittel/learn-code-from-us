@@ -1,6 +1,7 @@
 import React from "react"
 import SiteLink from "../SiteLink"
 import "./Card.scss"
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 const tag = () => {
   
@@ -9,6 +10,12 @@ const tag = () => {
 export default props => {
   let project = props.person.fields
   return (
+    <ReactCSSTransitionGroup
+      transitionName="slideUp"
+      transitionAppear={true}
+      transitionAppearTimeout={2500}
+      transitionEnter={false}
+      transitionLeave={false}>
     <div className="content">
       <h2>{project.Name}</h2>
       {project.Image && (
@@ -36,5 +43,6 @@ export default props => {
           ))}
       </div>
     </div>
+    </ReactCSSTransitionGroup>
   )
 }
