@@ -42,19 +42,6 @@ You could use a full IDE (Integrated Development Environment), but a text editor
 
 It includes npm (or Node Package Manager). This is a huge repository of open source JavaScript code libraries that you can add to your application.
 
-### Airtable API Key
-
-This code uses [AirTable](https://airtable.com/), which requires an API (Application Programming Interface) key. This is a little like a license key, in that it tells AirTable that you are allowed to use it.
-
-You can either create a key [using airtable](https://support.airtable.com/hc/en-us/articles/219046777-How-do-I-get-my-API-key-) or you can [contact Ali](https://twitter.com/aspittel) for one.
-
-Once you have an API Key, you will need to create an `.env` file - this is just a text file, but called `.env` and add your API key to it. Use the following as a template for how to add the API key to your file
-
-```
-REACT_APP_AIRTABLE_API_KEY=YourAPIKey
-```
-
-Replacing `YourAPIKey` with your API key.
 
 ## Set up instructions
 
