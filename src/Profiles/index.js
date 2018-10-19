@@ -3,8 +3,9 @@ import axios from "axios"
 import Card from "../Card"
 import "./Profiles.scss"
 
+console.log(process.env)
 const AIRTABLE_URL =
-  `https://api.airtable.com/v0/appyahDjTyD3MR0tU/Data?api_key=${process.env.REACT_APP_AIRTABLE_API_KEY}&view=published`
+  `https://api.airtable.com/v0/app4SjGGyZGblTcUs/Data?api_key=${process.env.REACT_APP_AIRTABLE_API_KEY}&view=published`
 
 class Profiles extends Component {
   constructor() {
