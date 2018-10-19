@@ -23,3 +23,7 @@ You will need the following software to be installed in order to build the code 
 - Clone the repo
 - run `npm install` within the `learn-from-us` directory
 - run `npm start` within the same directory
+
+## Tutorial for learning React
+
+- https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
