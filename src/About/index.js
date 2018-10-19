@@ -1,10 +1,14 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './About.scss'
 
 export default () => {
   return (
     <div className="about">
       <h1>About</h1>
+      <div>
+        Favorite Food: <FontAwesomeIcon icon="birthday-cake" />
+      </div>
       <p>
         Learn Code from Us is a site that lists people who are members of
         underrepresented groups in tech who create resources geared towards
