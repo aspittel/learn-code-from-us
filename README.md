@@ -20,12 +20,6 @@ You will need the following software to be installed in order to build the code 
 
 ## Set up instructions
 
-- Get an API Key for using AirTable
-  - [using airtable](https://support.airtable.com/hc/en-us/articles/219046777-How-do-I-get-my-API-key-)
-  - or you can [contact Ali](https://twitter.com/aspittel) for a read-only one
-- Add your API Key to an `.env` file
-  - The format is:
-  - `REACT_APP_AIRTABLE_API_KEY=YourAPIKey`
 - Clone the repo
 - run `npm install` within the `learn-from-us` directory
 - run `npm start` within the same directory
