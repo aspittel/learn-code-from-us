@@ -28,6 +28,9 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "prop-types": "^15.6.2"
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "prop-types": "^15.6.2",
+    "react-test-renderer": "^16.5.2"
   }
 }
