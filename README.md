@@ -24,5 +24,10 @@ You will need the following software to be installed in order to build the code 
 - run `npm install` within the `learn-from-us` directory
 - run `npm start` within the same directory
 
-## Tutorials for Beginners
+## Tutorials For Beginners
+
+- Introduction to `context-api` - [React Context](https://hackernoon.com/how-to-get-started-with-the-react-context-api-ccc41728fa59)
+- What's new in CRA v2 - [Create React App v2](https://scotch.io/tutorials/whats-new-in-create-react-app-2)
+- Build a custom toggle switch - [Toggle Switch](https://scotch.io/tutorials/build-a-custom-toggle-switch-with-react)
+- Build A simple login profile - [User login](https://scotch.io/tutorials/build-your-first-app-with-reacts-context-api)
 - Difference between React Elements and React Components - [Tyler McGinnis](https://tylermcginnis.com/react-elements-vs-react-components/)
