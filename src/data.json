@@ -830,5 +830,24 @@
       "Dev": "https://dev.to/lkopacz"
     },
     "createdTime": "2018-10-12T00:44:38.000Z"
+  },
+  {
+    "id": "9b5f0840cc944e24a",
+    "fields": {
+      "Name": "Kathyrn Hodge",
+      "Tags": ["Python", "Java"],
+      "Website": "https://twitter.com/blondiebytes",
+      "YouTube": "https://www.youtube.com/channel/UC4DwZ2VXM2KWtzHjVk9M_xg",
+      "About": "Kathryn Hodge is a software developer at a media company and creates computer science educational content on YouTube and LinkedIn Learning.",
+      "Published": true,
+      "Image": [
+        {
+          "id": "70817052db7548818",
+          "url": "https://pbs.twimg.com/profile_images/1039869988935540736/5hCd3AiL_400x400.jpg",
+          "type": "image/jpeg"
+        }
+      ]
+    },
+    "createdTime": "2018-10-19T03:22:14.078Z"
   }
 ]
