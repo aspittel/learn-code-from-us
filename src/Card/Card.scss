@@ -16,6 +16,13 @@
   border: 1.5px solid lightgrey;
   border-radius: 1%;
 
+  background: linear-gradient(
+    white, white 50%, #333 50%, #333
+  );
+
+  background-size: 100% 200%;
+  transition: all 0.2s ease;
+
   h3 {
     color: #444;
   }
@@ -40,6 +47,18 @@
   }
 }
 
+.content:hover {
+  h1, h2, h3 {
+    color: white;
+  }
+
+  svg {
+    color: #48ad26;
+  }
+
+  background-position: 100% 100%;
+  
+}
 
 $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
 
