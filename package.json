@@ -16,7 +16,16 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:all": "standard && react-scripts test",
+    "lint:run": "standard",
+    "lint:fix": "standard --fix",
     "eject": "react-scripts eject"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "fetch"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -26,5 +35,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
 }
