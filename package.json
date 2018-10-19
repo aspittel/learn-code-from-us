@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "node-sass": "^4.9.4",
     "react": "^16.5.2",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.5.2",
     "react-modal": "^3.6.1",
     "react-router-dom": "^4.3.1",
