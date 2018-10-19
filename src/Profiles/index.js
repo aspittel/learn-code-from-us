@@ -33,7 +33,9 @@ class Profiles extends Component {
   render () {
     return (
       <div className='container'>
-        {this.state.people.map(person => <Card key={person.id} person={person} data-tip={person.Name} />)}
+        {this.state.people.map(person => (
+          <Card key={person.id} person={person} data-tip={person.Name} />
+        ))}
       </div>
     )
   }

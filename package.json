@@ -16,8 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:all": "standard && react-scripts test",
+    "test:all": "standard && prettier-standard 'src/**/*.{js,jsx}' && react-scripts test",
     "lint:run": "standard",
+    "lint:prettier": "prettier-standard 'src/**/*.{js,jsx}'",
     "lint:fix": "standard --fix",
     "eject": "react-scripts eject"
   },
@@ -28,7 +29,12 @@
     ]
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "eslint.options": {
+      "rules": {
+        "eqeqeq": 1
+      }
+    }
   },
   "browserslist": [
     ">0.2%",
@@ -37,6 +43,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "eslint": "5.6.0",
+    "prettier-standard": "^8.0.1",
     "standard": "^12.0.1"
   }
 }

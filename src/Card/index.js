@@ -19,12 +19,42 @@ export default props => {
         />
       )}
       <div className='links'>
-        <SiteLink icon='fas fa-pencil-alt' title='Read our blog' link={project.Blog} tooltipText='blog' />
-        <SiteLink icon='fas fa-envelope' title='sign up for our newsletter' link={project.Newsletter} tooltipText='newsletter' />
-        <SiteLink icon='fab fa-youtube' title='subscribe to our YouTube channel' link={project.YouTube} tooltipText='YouTube' />
-        <SiteLink icon='fas fa-podcast' title='subscribe to our podcast' link={project.Podcast} tooltipText='podcast' />
-        <SiteLink icon='fas fa-link' title='visit our website' link={project.Website} tooltipText='website' />
-        <SiteLink icon='fab fa-dev' title='read our posts on dev.to' link={project.Dev} tooltipText='dev.to' />
+        <SiteLink
+          icon='fas fa-pencil-alt'
+          title='Read our blog'
+          link={project.Blog}
+          tooltipText='blog'
+        />
+        <SiteLink
+          icon='fas fa-envelope'
+          title='sign up for our newsletter'
+          link={project.Newsletter}
+          tooltipText='newsletter'
+        />
+        <SiteLink
+          icon='fab fa-youtube'
+          title='subscribe to our YouTube channel'
+          link={project.YouTube}
+          tooltipText='YouTube'
+        />
+        <SiteLink
+          icon='fas fa-podcast'
+          title='subscribe to our podcast'
+          link={project.Podcast}
+          tooltipText='podcast'
+        />
+        <SiteLink
+          icon='fas fa-link'
+          title='visit our website'
+          link={project.Website}
+          tooltipText='website'
+        />
+        <SiteLink
+          icon='fab fa-dev'
+          title='read our posts on dev.to'
+          link={project.Dev}
+          tooltipText='dev.to'
+        />
       </div>
       <h3>{project.About}</h3>
       <div className='tags'>

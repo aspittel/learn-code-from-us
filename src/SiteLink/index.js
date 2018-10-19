@@ -7,7 +7,12 @@ export default ({ link, icon, tooltipText }) => {
   if (!link) return null
 
   return (
-    <a href={link} data-tip={tooltipText} target='_blank' rel='noopener noreferrer'>
+    <a
+      href={link}
+      data-tip={tooltipText}
+      target='_blank'
+      rel='noopener noreferrer'
+    >
       <i className={`${icon} fa-2x`} />
       <ReactTooltip />
     </a>
