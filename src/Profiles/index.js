@@ -1,11 +1,7 @@
 import React, { Component } from "react"
-import axios from "axios"
+import data from '../data.json'
 import Card from "../Card"
 import "./Profiles.scss"
-
-console.log(process.env)
-const AIRTABLE_URL =
-  `https://api.airtable.com/v0/app4SjGGyZGblTcUs/Data?api_key=${process.env.REACT_APP_AIRTABLE_API_KEY}&view=published`
 
 class Profiles extends Component {
   constructor() {
@@ -28,11 +24,9 @@ class Profiles extends Component {
   }
 
   componentDidMount() {
-    axios.get(AIRTABLE_URL).then(data => {
-      data = this.shuffle(data.data.records)
-      this.setState({
-        people: data
-      })
+    let shuffledData = this.shuffle(data)
+    this.setState({
+      people: shuffledData
     })
   }
 
