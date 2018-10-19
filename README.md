@@ -23,3 +23,6 @@ You will need the following software to be installed in order to build the code 
 - Clone the repo
 - run `npm install` within the `learn-from-us` directory
 - run `npm start` within the same directory
+
+## Tutorials for Beginners
+- Difference between React Elements and React Components - [Tyler McGinnis](https://tylermcginnis.com/react-elements-vs-react-components/)
