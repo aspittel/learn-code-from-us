@@ -26,4 +26,4 @@ You will need the following software to be installed in order to build the code 
 
 ## Tutorial for learning React
 
-- https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG
+- [Net Ninja Videos](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG): This tutorial explains the basics of React.js and Redux. Perfect for beginners.
