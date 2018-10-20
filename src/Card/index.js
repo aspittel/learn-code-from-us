@@ -9,11 +9,13 @@ const Card = props => {
     <div className="content">
       <h2>{project.Name}</h2>
       {project.Image && (
-        <img
-          src={project.Image[0].url}
-          alt={"Picture of " + project.Name}
-          className="profileImage"
-        />
+        <div class="profileImageContainer">
+          <img
+            src={project.Image[0].url}
+            alt={"Picture of " + project.Name}
+            className="profileImage"
+          />
+        </div>
       )}
       <div className="links">
         <SiteLink
