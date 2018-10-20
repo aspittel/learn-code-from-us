@@ -1,8 +1,8 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import "./Header.scss"
+import React from "react";
+import Link from "../Link";
+import "./Header.scss";
 
-export default props => {
+const Header = props => {
   return (
     <header>
       <h1>
@@ -16,5 +16,7 @@ export default props => {
         About this Site
       </Link>
     </header>
-  )
-}
+  );
+};
+
+export default Header;
