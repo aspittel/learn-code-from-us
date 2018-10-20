@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Link } from "react-router-dom"
+import Link from "../Link"
 import Header from './index'
 
 describe('Header', () => {
