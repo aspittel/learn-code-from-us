@@ -5,9 +5,7 @@ import { shallow } from "enzyme";
 import Profiles from "../Profiles";
 jest.mock("../data");
 
-
 describe("The application", () => {
-
   let data;
   beforeAll(() => {
     data = require("../data.json");
@@ -35,37 +33,90 @@ describe("The application", () => {
       createdTime: "2018-09-06T22:03:29.000Z"
     };
     expect(shallow(<Profiles />)).toMatchInlineSnapshot(`
-<div
-  className="container"
->
-  <_default
-    key="recWhmTAXi2OjNN2R"
-    person={
-      Object {
-        "createdTime": "2018-09-06T22:03:29.000Z",
-        "fields": Object {
-          "About": "Ali's blog The Zen of Programming is a set of resources that she wishes she had when she was learning to code, including code and design tutorials, motivational posts, and life updates.
+<Fragment>
+  <div
+    className="results-filter"
+  >
+    <p>
+      Filter by technology
+    </p>
+    <div
+      className="results-dropdown"
+    >
+      <select
+        onChange={[Function]}
+        value=""
+      >
+        <option
+          value=""
+        >
+          Choose a filter
+        </option>
+        <option
+          key="CSS"
+          value="CSS"
+        >
+          CSS
+        </option>
+        <option
+          key="Design"
+          value="Design"
+        >
+          Design
+        </option>
+        <option
+          key="JavaScript"
+          value="JavaScript"
+        >
+          JavaScript
+        </option>
+        <option
+          key="Python"
+          value="Python"
+        >
+          Python
+        </option>
+        <option
+          key="WebDev"
+          value="WebDev"
+        >
+          WebDev
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="results-container"
+  >
+    <Card
+      key="recWhmTAXi2OjNN2R"
+      person={
+        Object {
+          "createdTime": "2018-09-06T22:03:29.000Z",
+          "fields": Object {
+            "About": "Ali's blog The Zen of Programming is a set of resources that she wishes she had when she was learning to code, including code and design tutorials, motivational posts, and life updates.
 ",
-          "Blog": "https://zen-of-programming.com",
-          "Dev": "https://dev.to/aspittel",
-          "Name": "Ali Spittel",
-          "Newsletter": "https://tinyletter.com/ali_writes_code",
-          "Published": true,
-          "Tags": Array [
-            "WebDev",
-            "Design",
-            "JavaScript",
-            "CSS",
-            "Python",
-          ],
-          "Website": "https://alispit.tel",
-          "slug": "ali-spittel",
-        },
-        "id": "recWhmTAXi2OjNN2R",
+            "Blog": "https://zen-of-programming.com",
+            "Dev": "https://dev.to/aspittel",
+            "Name": "Ali Spittel",
+            "Newsletter": "https://tinyletter.com/ali_writes_code",
+            "Published": true,
+            "Tags": Array [
+              "WebDev",
+              "Design",
+              "JavaScript",
+              "CSS",
+              "Python",
+            ],
+            "Website": "https://alispit.tel",
+            "slug": "ali-spittel",
+          },
+          "id": "recWhmTAXi2OjNN2R",
+        }
       }
-    }
-  />
-</div>
+    />
+  </div>
+</Fragment>
 `);
   });
 });
