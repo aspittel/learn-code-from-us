@@ -14,8 +14,7 @@ None of the above, create a bug report
 
 Make sure to add **all the information needed to understand the bug** so that someone can help. If the info is missing we'll add the 'Needs more information' label and close the issue until there is enough information.
 
-- [ ] Provide a **minimal code snippet** / [rnplay](https://rnplay.org/) example that reproduces the bug.
+- [ ] Provide a **minimal code snippet** example that reproduces the bug.
 - [ ] Provide **screenshots** where appropriate
-- [ ] What's the **version** of React Native you're using?
-- [ ] Does this occur on iOS, Android or both?
-- [ ] Are you using Mac, Linux or Windows?
+- [ ] Provide version details
+- [ ] Provide Platform details

@@ -1,6 +1,6 @@
 # Contributing to learn-code-from-us
 
-:tada: First off, thanks for taking the time to contribute! The drone market is expanding quickly and we're excited to be working on a free software implementation for drone imagery processing. :tada:
+:tada: First off, thanks for taking the time to contribute! :tada:
 
 ## How can I contribute?
 
@@ -10,4 +10,4 @@ Take a look at the list of [open issues](https://github.com/aspittel/learn-code-
 
 ## Code of Conduct
 
-This project adheres to the [Contributor Covenant](CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project maintainers.
+This project adheres to the [Contributor Covenant](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to the project maintainers.
