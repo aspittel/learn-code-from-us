@@ -24,6 +24,11 @@ You will need the following software to be installed in order to build the code 
 - run `npm install` within the `learn-from-us` directory
 - run `npm start` within the same directory
 
+## Production server
+
+- run `npm build` to create an optimized build under the `/build` folder
+- run `npm run serve` to serve the files under `/build` on port 8080
+
 ## React Tutorials For Beginners
 
 - [A Complete Beginner's Guide to React](https://dev.to/aspittel/a-complete-beginners-guide-to-react-2cl6)
