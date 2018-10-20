@@ -76,6 +76,11 @@ $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
 .slideUp-appear.slideUp-appear-active {
   margin-top: 0;
   opacity: 1;
-  transition: all 2500ms ease-in;
-  transition-delay: 2s;
+  transition: all 2000ms ease-out;
+}
+
+@supports (-moz-appearance:meterbar) {
+  .slideUp-appear.slideUp-appear-active {
+    transition-delay: 2s;
+  }
 }

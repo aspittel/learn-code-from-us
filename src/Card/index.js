@@ -13,7 +13,7 @@ export default props => {
     <ReactCSSTransitionGroup
       transitionName="slideUp"
       transitionAppear={true}
-      transitionAppearTimeout={2500}
+      transitionAppearTimeout={2000}
       transitionEnter={false}
       transitionLeave={false}>
     <div className="content">
