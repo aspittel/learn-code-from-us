@@ -1,4 +1,49 @@
-.container {
+.results-filter {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+
+  > p {
+    color: grey;
+    font-size: 18px;
+  }
+}
+
+.results-dropdown {
+  position: relative;
+
+  > select {
+    appearance: none;
+    background: white;
+    border: 1.5px solid lightgrey;
+    border-radius: 4px;
+    color: gray;
+    cursor: pointer;
+    line-height: 1.5;
+    font-size: 16px;
+    margin-left: 10px;
+    outline: none;
+    padding: 5px 20px 5px 10px;
+    transition: border 250ms ease;
+    width: 100%;
+
+    &:hover, &:focus {
+      border-color: #7b8acc;
+    }
+  }
+
+  &::after {
+    color: #7b8acc;
+    content: '▼';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    font-size: 9px;
+  }
+}
+
+.results-container {
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
