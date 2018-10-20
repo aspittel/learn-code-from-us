@@ -32,3 +32,7 @@ You will need the following software to be installed in order to build the code 
 - Introduction to `context-api` - [React Context](https://hackernoon.com/how-to-get-started-with-the-react-context-api-ccc41728fa59)
 - What's new in CRA v2 - [Create React App v2](https://scotch.io/tutorials/whats-new-in-create-react-app-2)
 - Difference between React Elements and React Components - [Tyler McGinnis](https://tylermcginnis.com/react-elements-vs-react-components/)
+- React.js Getting Started - [Samer Buna|Pluralsight](https://www.pluralsight.com/courses/react-js-getting-started)
+- React Fundamentals - [Liam McLennan](https://www.pluralsight.com/courses/react-fundamentals)
+- Learn React JS from Scratch [Udemy](https://www.udemy.com/master-reactjs/)
+- Learn ReactJS [Codecademy](https://www.codecademy.com/learn/react-101)
