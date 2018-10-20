@@ -26,7 +26,7 @@ describe('Card', () => {
     it('renders an image if present in data', () => {
       const data = {
         fields: {
-          Image: 'http://example.com/image.jpg',
+          Image: ['http://example.com/image.jpg'],
           ...person.fields
         }
       }
