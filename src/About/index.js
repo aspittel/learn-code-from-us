@@ -1,8 +1,9 @@
+<<<<<<< HEAD
 import React from "react"
-import './About.scss'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import React from "react";
+import "./About.scss";
 
-export default () => {
+const About = () => {
   return (
     <div className="about">
       <h1>About</h1>
@@ -13,16 +14,29 @@ export default () => {
         to) podcasts, blog posts, newsletters, or YouTube videos. For now, this
         site is geared towards free resources in order to be as accessible as
         possible.{" "}
-        <a href="https://dev.to/aspittel/introducing-learn-code-from-us-oe1"  target="_blank">
+        <a
+          href="https://dev.to/aspittel/introducing-learn-code-from-us-oe1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Here
         </a>{" "}
         is a blog post with more about the project.
       </p>
       <p>
         If you would like to be included on this list and identify as part of an
-        underrepresented group in tech, please fill out {" "}
-        <a href="https://airtable.com/shrYbUMMlR1iVpA1l"  target="_blank">this form</a>!
+        underrepresented group in tech, please fill out{" "}
+        <a
+          href="https://airtable.com/shrYbUMMlR1iVpA1l"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          this form
+        </a>
+        !
       </p>
     </div>
-  )
-}
+  );
+};
+
+export default About;
