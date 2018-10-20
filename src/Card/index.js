@@ -2,10 +2,6 @@ import React from "react"
 import SiteLink from "../SiteLink"
 import "./Card.scss"
 
-const tag = () => {
-
-}
-
 export default props => {
   let project = props.person.fields
   return (
