@@ -34,3 +34,4 @@ You will need the following software to be installed in order to build the code 
 - Difference between React Elements and React Components - [Tyler McGinnis](https://tylermcginnis.com/react-elements-vs-react-components/)
 - Get your hands dirty: 30 Days of React (with free 300+ pdf) - [30 Days of React](https://www.fullstackreact.com/30-days-of-react/)  
 - React developer roadmap by Adam Golab - [React roadmap @ GitHub](https://github.com/adam-golab/react-developer-roadmap)
+- [Net Ninja Videos](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG): This tutorial explains the basics of React.js and Redux. Perfect for beginners.
