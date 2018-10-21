@@ -44,5 +44,32 @@ You will need the following software to be installed in order to build the code 
 - run `npm install` within the `learn-from-us` directory
 - run `npm start` within the same directory
 
-## [Checkout Awesome Tutorials From Beginners to Advanced](Tutorials.md)
+## Docker
 
+Alternatively, you can build the app with Docker. Make sure you have Docker installed and then run `docker-compose up` in the `learn-from-us` directory. On first run, this will build the image using the official Node image for Alpine Linux. Once the image is built it will launch the development server watching for code changes reloading the app when necessary.
+
+By default, the app will start in development mode you can tweak the `args` and `command` values in _docker-compose.yml_ to achieve the result you like.
+
+## React Tutorials For Beginners
+
+[**Checkout Awesome Tutorials From Beginners to Advanced**](Tutorials.md)
+
+- [A Complete Beginner's Guide to React](https://dev.to/aspittel/a-complete-beginners-guide-to-react-2cl6)
+- Build a custom toggle switch - [Toggle Switch](https://scotch.io/tutorials/build-a-custom-toggle-switch-with-react)
+- Build A simple login profile - [User login](https://scotch.io/tutorials/build-your-first-app-with-reacts-context-api)
+- Introduction to `context-api` - [React Context](https://hackernoon.com/how-to-get-started-with-the-react-context-api-ccc41728fa59)
+- What's new in CRA v2 - [Create React App v2](https://scotch.io/tutorials/whats-new-in-create-react-app-2)
+- Difference between React Elements and React Components - [Tyler McGinnis](https://tylermcginnis.com/react-elements-vs-react-components/)
+- [Net Ninja Videos](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG): This tutorial explains the basics of React.js and Redux. Perfect for beginners.
+- [edx course](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) for learning react
+- Codeacdemy free react course to learn concepts of react
+  - [Part I](https://www.codecademy.com/learn/react-101)
+  - [Part II](https://www.codecademy.com/learn/react-102)
+- React sample projects to learn
+  - [6 Fun React Projects You Can Build Today](https://daveceddia.com/react-practice-projects/)
+  - [25 React Projects](http://sean-smith.me/assets/portfolio/25-react-projects/index.html)
+- [React Starter Kit](https://glitch.com/featured/react-starter-kit/) by [Glitch](https://glitch.com/)
+- [LearnCode.academy Videos](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
+- [Traversy Media - React Crash Course](https://www.youtube.com/watch?v=A71aqufiNtQ)
+- How to Learn React — A roadmap from beginner to advanced - [Srebalaji Thirumalai](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6).
+- Create a Simple To-Do App With React - [Chris Nwamba](https://scotch.io/tutorials/create-a-simple-to-do-app-with-react).
