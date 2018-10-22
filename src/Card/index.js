@@ -18,7 +18,7 @@ const Card = props => {
       {project.Image && (
         <div class="profileImageContainer">
           <img
-            src={project.Image[0].url}
+            src={project.Image[0].thumbnails.large.url}
             alt={"Picture of " + project.Name}
             className="profileImage"
           />
