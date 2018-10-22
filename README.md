@@ -36,3 +36,5 @@ You will need the following software to be installed in order to build the code 
 - A Simple React Router v4 Tutorial [Medium](https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf)
 - How to Learn React — A roadmap from beginner to advanced [freeCodeCamp](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6)
 - Getting Started with React: A Beginner’s Guide (Create a Message App) [Site Point](https://www.sitepoint.com/getting-started-react-beginners-guide/)
+- How to Learn React — A roadmap from beginner to advanced - [Srebalaji Thirumalai](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6).
+- Create a Simple To-Do App With React - [Chris Nwamba](https://scotch.io/tutorials/create-a-simple-to-do-app-with-react).
