@@ -35,3 +35,4 @@ You will need the following software to be installed in order to build the code 
 - [Net Ninja Videos](https://www.youtube.com/playlist?list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG): This tutorial explains the basics of React.js and Redux. Perfect for beginners.
 - How to Learn React — A roadmap from beginner to advanced - [Srebalaji Thirumalai](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6).
 - Create a Simple To-Do App With React - [Chris Nwamba](https://scotch.io/tutorials/create-a-simple-to-do-app-with-react).
+- Build Gutenberg blocks : WordPress + React with `create-guten-block` - [Ahmad Awais](https://github.com/ahmadawais/create-guten-block).
