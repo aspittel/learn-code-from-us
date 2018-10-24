@@ -14,7 +14,7 @@ class App extends Component {
           <Route exact path='/about' component={About} />
         </div>
       </Router>
-    );
+    )
   }
 }
 
