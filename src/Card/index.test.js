@@ -26,13 +26,18 @@ describe('Card', () => {
     it('renders an image if present in data', () => {
       const data = {
         fields: {
-          Image: ['http://example.com/image.jpg'],
+          Image: [
+            {thumbnails:
+              {large: {url:'http://example.com/image.jpg'}}
+            }
+          ],
           ...person.fields
         }
       }
 
       const wrapped = shallow(<Card person={data}/>)
       expect(wrapped.find('img').length).toBe(1)
+      expect(wrapped.find('div.profileImageContainer').length).toBe(1)
     })
   })
 })
