@@ -31,10 +31,8 @@
   },
   "eslintConfig": {
     "extends": "react-app",
-    "eslint.options": {
-      "rules": {
-        "eqeqeq": 1
-      }
+    "rules": {
+      "eqeqeq": 1
     }
   },
   "browserslist": [
