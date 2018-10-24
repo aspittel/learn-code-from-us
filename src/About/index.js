@@ -11,11 +11,11 @@ const About = () => {
         programmers of all levels. These resources include (but are not limited
         to) podcasts, blog posts, newsletters, or YouTube videos. For now, this
         site is geared towards free resources in order to be as accessible as
-        possible.{" "}
+        possible.{' '}
         <a
-          href="https://dev.to/aspittel/introducing-learn-code-from-us-oe1"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://dev.to/aspittel/introducing-learn-code-from-us-oe1'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           Here
         </a>{' '}
@@ -23,18 +23,18 @@ const About = () => {
       </p>
       <p>
         If you would like to be included on this list and identify as part of an
-        underrepresented group in tech, please fill out{" "}
+        underrepresented group in tech, please fill out{' '}
         <a
-          href="https://airtable.com/shrYbUMMlR1iVpA1l"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://airtable.com/shrYbUMMlR1iVpA1l'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           this form
         </a>
         !
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default About;
+export default About

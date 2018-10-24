@@ -1,10 +1,10 @@
-import React from "react";
-import { Route, Link as RouterLink, withRouter } from "react-router-dom";
+import React from 'react'
+import { Route, Link as RouterLink, withRouter } from 'react-router-dom'
 
 /* https://github.com/ReactTraining/history/issues/470 */
 /* Proposed Solution: https://gist.github.com/chpio/a5d4f7d73d6643780db20db163561a67 */
 
-function Link({
+function Link ({
   to,
   location,
   children,
@@ -22,7 +22,7 @@ function Link({
         </RouterLink>
       )}
     />
-  );
+  )
 }
 
-export default withRouter(Link);
+export default withRouter(Link)
