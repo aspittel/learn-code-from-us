@@ -24,15 +24,23 @@
     "eject": "react-scripts eject"
   },
   "standard": {
+    "parser": "babel-eslint",
     "globals": [
+      "beforeAll",
+      "describe",
+      "expect",
+      "fetch",
       "it",
-      "fetch"
+      "jest"
     ]
   },
   "eslintConfig": {
     "extends": "react-app",
-    "rules": {
-      "eqeqeq": 1
+    "ecmaVersion": 2018,
+    "eslint.options": {
+      "rules": {
+        "eqeqeq": 1
+      }
     }
   },
   "browserslist": [
@@ -43,6 +51,7 @@
   ],
   "devDependencies": {
     "airtable": "^0.5.7",
+    "babel-eslint": "^9.0.0",
     "dotenv": "^6.1.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
