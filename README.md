@@ -12,8 +12,10 @@ The following text was taken from the about page on [https://learncodefrom.us](h
 
 On the user side, please add a new person through [this form](https://airtable.com/shrYbUMMlR1iVpA1l). 
 
-> This site is specifically for people who are members of underrepresented groups in tech who create content for programmers.
+> This site is specifically for highlighting people who are members of underrepresented groups in tech who create content for programmers.
+
 > Please only submit if you have over five posts, and you are planning on making more content in the future! 
+
 > Also, please only submit your own content at this point!
 
 On the code side, the logic is in `data-formatting/script.js`. It creates the `data.json` file. You need an API key for the base in order to run this script. At this point, Ali will handle this process since it requires a couple manual checks.
