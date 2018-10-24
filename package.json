@@ -17,10 +17,25 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:all": "standard && prettier-standard 'src/**/*.{js,jsx}' && react-scripts test",
+    "lint:run": "standard",
+    "lint:prettier": "prettier-standard 'src/**/*.{js,jsx}'",
+    "lint:fix": "standard --fix",
     "eject": "react-scripts eject"
   },
+  "standard": {
+    "globals": [
+      "it",
+      "fetch"
+    ]
+  },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "eslint.options": {
+      "rules": {
+        "eqeqeq": 1
+      }
+    }
   },
   "browserslist": [
     ">0.2%",
@@ -34,7 +49,10 @@
     "jest-environment-enzyme": "^7.0.0",
     "jest-enzyme": "^7.0.0",
     "prop-types": "^15.6.2",
-    "react-test-renderer": "^16.5.2"
+    "react-test-renderer": "^16.5.2",
+    "eslint": "5.6.0",
+    "prettier-standard": "^8.0.1",
+    "standard": "^12.0.1"
   },
   "jest": {
     "snapshotSerializers": [

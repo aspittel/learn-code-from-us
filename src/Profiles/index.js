@@ -1,10 +1,10 @@
-import React, { Component, Fragment } from "react"
+import React, { Component, Fragment } from 'react'
 import data from '../data.json'
-import Card from "../Card"
-import "./Profiles.scss"
+import Card from '../Card'
+import './Profiles.scss'
 
 class Profiles extends Component {
-  constructor() {
+  constructor () {
     super()
     this.state = {
       people: [],
@@ -13,7 +13,7 @@ class Profiles extends Component {
     }
   }
 
-  shuffle(data) {
+  shuffle (data) {
     let a = [...data]
     var j, x, i
     for (i = a.length - 1; i > 0; i--) {
@@ -26,29 +26,29 @@ class Profiles extends Component {
   }
 
   getTags(people) {
-    const tags = people.map(person => person.fields.Tags);
-    const mergedTags = tags.reduce((a, b) => [...a, ...b], []);
-    const uniqueArrayOfTags = Array.from(new Set([...mergedTags])).sort((a, b) => a < b ? -1 : 1);;
+    const tags = people.map(person => person.fields.Tags)
+    const mergedTags = tags.reduce((a, b) => [...a, ...b], [])
+    const uniqueArrayOfTags = Array.from(new Set([...mergedTags])).sort((a, b) => a < b ? -1 : 1)
     this.setState({
       tags: uniqueArrayOfTags,
-    });
+    })
   }
 
   handleChange = (e) => {
-    this.setState({ selectedTag: e.target.value });
+    this.setState({ selectedTag: e.target.value })
   }
 
   componentDidMount() {
     let shuffledData = this.shuffle(data)
     this.setState({
       people: shuffledData
-    }, () => this.getTags(this.state.people));
+    }, () => this.getTags(this.state.people))
   }
 
   render() {
-    const { people, tags, selectedTag } = this.state;
+    const { people, tags, selectedTag } = this.state
     const filteredPeople = people.filter(person => person.fields.Tags.includes(selectedTag));
-    const peopleToMap = selectedTag ? filteredPeople : people;
+    const peopleToMap = selectedTag ? filteredPeople : people
     return (
       <Fragment>
         <div className="results-filter">

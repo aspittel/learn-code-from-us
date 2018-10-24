@@ -1,8 +1,8 @@
 import React from "react"
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import PropTypes from 'prop-types'
-import SiteLink from "../SiteLink"
-import "./Card.scss"
+import SiteLink from '../SiteLink'
+import './Card.scss'
 
 const Card = props => {
   let project = props.person.fields;
@@ -63,10 +63,10 @@ const Card = props => {
         />
       </div>
       <h3>{project.About}</h3>
-      <div className="tags">
+      <div className='tags'>
         {project.Tags &&
           project.Tags.map(tag => (
-            <div key={tag} className="tag">
+            <div key={tag} className='tag'>
               {tag}
             </div>
           ))}
@@ -92,6 +92,6 @@ Card.propTypes = {
       Tags: PropTypes.array
     })
   })
-};
+}
 
-export default Card;
+export default Card

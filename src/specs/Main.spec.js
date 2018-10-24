@@ -1,37 +1,37 @@
-import React from "react";
-import App from "../App";
-import renderer from "react-test-renderer";
-import { shallow } from "enzyme";
-import Profiles from "../Profiles";
-jest.mock("../data");
+import React from 'react'
+import App from '../App'
+import renderer from 'react-test-renderer'
+import { shallow } from 'enzyme'
+import Profiles from '../Profiles'
+jest.mock('../data')
 
-describe("The application", () => {
-  let data;
+describe('The application', () => {
+  let data
   beforeAll(() => {
-    data = require("../data.json");
-  });
+    data = require('../data.json')
+  })
 
-  it("should render without crashing", () => {
-    renderer.create(<App />);
-  });
+  it('should render without crashing', () => {
+    renderer.create(<App />)
+  })
 
-  it("should allow shallow rendering", () => {
+  it('should allow shallow rendering', () => {
     data[0] = {
-      id: "recWhmTAXi2OjNN2R",
+      id: 'recWhmTAXi2OjNN2R',
       fields: {
-        Name: "Ali Spittel",
-        Tags: ["WebDev", "Design", "JavaScript", "CSS", "Python"],
-        Blog: "https://zen-of-programming.com",
-        Website: "https://alispit.tel",
+        Name: 'Ali Spittel',
+        Tags: ['WebDev', 'Design', 'JavaScript', 'CSS', 'Python'],
+        Blog: 'https://zen-of-programming.com',
+        Website: 'https://alispit.tel',
         About:
           "Ali's blog The Zen of Programming is a set of resources that she wishes she had when she was learning to code, including code and design tutorials, motivational posts, and life updates.\n",
         Published: true,
-        slug: "ali-spittel",
-        Newsletter: "https://tinyletter.com/ali_writes_code",
-        Dev: "https://dev.to/aspittel"
+        slug: 'ali-spittel',
+        Newsletter: 'https://tinyletter.com/ali_writes_code',
+        Dev: 'https://dev.to/aspittel'
       },
-      createdTime: "2018-09-06T22:03:29.000Z"
-    };
+      createdTime: '2018-09-06T22:03:29.000Z'
+    }
     expect(shallow(<Profiles />)).toMatchInlineSnapshot(`
 <Fragment>
   <div
@@ -117,6 +117,6 @@ describe("The application", () => {
     />
   </div>
 </Fragment>
-`);
-  });
-});
+`)
+  })
+})

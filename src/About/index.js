@@ -1,9 +1,9 @@
-import React from "react";
-import "./About.scss";
+import React from 'react'
+import './About.scss'
 
 const About = () => {
   return (
-    <div className="about">
+    <div className='about'>
       <h1>About</h1>
       <p>
         Learn Code from Us is a site that lists people who are members of
@@ -18,7 +18,7 @@ const About = () => {
           rel="noopener noreferrer"
         >
           Here
-        </a>{" "}
+        </a>{' '}
         is a blog post with more about the project.
       </p>
       <p>
