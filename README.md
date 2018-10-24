@@ -40,3 +40,8 @@ You will need the following software to be installed in order to build the code 
 - React sample projects to learn
   - [6 Fun React Projects You Can Build Today](https://daveceddia.com/react-practice-projects/)
   - [25 React Projects](http://sean-smith.me/assets/portfolio/25-react-projects/index.html)
+- [React Starter Kit](https://glitch.com/featured/react-starter-kit/) by [Glitch](https://glitch.com/)
+- [LearnCode.academy Videos](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
+- [Traversy Media - React Crash Course](https://www.youtube.com/watch?v=A71aqufiNtQ)
+- How to Learn React — A roadmap from beginner to advanced - [Srebalaji Thirumalai](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6).
+- Create a Simple To-Do App With React - [Chris Nwamba](https://scotch.io/tutorials/create-a-simple-to-do-app-with-react).
