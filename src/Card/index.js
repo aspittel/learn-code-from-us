@@ -1,19 +1,28 @@
-import React from "react";
-import PropTypes from "prop-types";
-import SiteLink from "../SiteLink";
-import "./Card.scss";
+import React from "react"
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import PropTypes from 'prop-types'
+import SiteLink from "../SiteLink"
+import "./Card.scss"
 
 const Card = props => {
   let project = props.person.fields;
   return (
+    <ReactCSSTransitionGroup
+      transitionName="slideUp"
+      transitionAppear={true}
+      transitionAppearTimeout={2000}
+      transitionEnter={false}
+      transitionLeave={false}>
     <div className="content">
       <h2>{project.Name}</h2>
       {project.Image && (
-        <img
-          src={project.Image[0].url}
-          alt={"Picture of " + project.Name}
-          className="profileImage"
-        />
+        <div class="profileImageContainer">
+          <img
+            src={project.Image[0].thumbnails.large.url}
+            alt={"Picture of " + project.Name}
+            className="profileImage"
+          />
+        </div>
       )}
       <div className="links">
         <SiteLink
@@ -62,9 +71,11 @@ const Card = props => {
             </div>
           ))}
       </div>
-    </div>
-  );
-};
+      </div>
+    </ReactCSSTransitionGroup>
+  )
+}
+
 
 Card.propTypes = {
   person: PropTypes.shape({
