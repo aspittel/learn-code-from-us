@@ -14,6 +14,7 @@
 - [Traversy Media - React Crash Course](https://www.youtube.com/watch?v=A71aqufiNtQ)
 - How to Learn React — A roadmap from beginner to advanced - [Srebalaji Thirumalai](https://medium.freecodecamp.org/learning-react-roadmap-from-scratch-to-advanced-bff7735531b6).
 - [LearnCode.academy Videos](https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b)
+- [freeCodeCamp's React Lessons](https://learn.freecodecamp.org/front-end-libraries/react/)
 
 #### More advanced/Specific React Topics
 - Build a custom toggle switch - [Toggle Switch](https://scotch.io/tutorials/build-a-custom-toggle-switch-with-react)
