@@ -1,3 +1,5 @@
+
+
 .content {
   height: 100%;
   max-width: 100%;
@@ -15,12 +17,12 @@
   border: 1.5px solid lightgrey;
   border-radius: 1%;
 
-  transition: all 0.3s;
+  transition: all .3s;
 
   &:hover {
     box-shadow: 2px 2px 10px #33333359;
     transform: scale(1.01);
-    transition: all 0.3s;
+    transition: all .3s;
   }
 
   h3 {
@@ -30,7 +32,7 @@
   h2 {
     font-size: 2rem;
     font-weight: 600;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
   }
 
   h3 {
@@ -47,7 +49,7 @@
   }
 
   .links {
-    transition: all 0.3s;
+    transition: all .3s;
 
     a {
       padding: 10px;
@@ -56,7 +58,7 @@
       &:hover {
         background: #7b8acc;
         box-shadow: 2px 2px 10px #33333359;
-        transition: all 0.3s;
+        transition: all .3s;
 
         svg {
           color: #fff;
@@ -66,12 +68,13 @@
   }
 }
 
+
 $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
 
 .tags {
   @for $i from 1 through length($colors) {
-    div:nth-child(#{length($colors)}n + #{$i}) {
-      background: nth($colors, $i);
+    div:nth-child(#{length($colors)}n+#{$i}) {
+        background: nth($colors, $i)
     }
   }
 }
@@ -100,7 +103,7 @@ $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
   transition: transform 0.5s;
 
   &:hover {
-    transform: scale(1.08);
+    transform:scale(1.08);
     transition: transform 0.5s;
   }
 }
@@ -116,7 +119,7 @@ $colors: #f8bbd0, #e1bee7, #bbdefb, #b2ebf2, #c8e6c9, #fff9c4;
   transition: all 1s ease-out;
 }
 
-@supports (-moz-appearance: meterbar) {
+@supports (-moz-appearance:meterbar) {
   .slideUp-appear.slideUp-appear-active {
     transition-delay: 1s;
   }
