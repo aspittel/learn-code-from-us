@@ -6,7 +6,7 @@ const Header = props => {
   return (
     <header>
       <h1>
-        <a href='/'>Learn Code from Us</a>
+        <Link to='/'>Learn Code from Us</Link>
       </h1>
       <h4>
         People from underrepresented groups in tech who create awesome
