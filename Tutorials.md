@@ -26,6 +26,7 @@
   - [6 Fun React Projects You Can Build Today](https://daveceddia.com/react-practice-projects/)
   - [25 React Projects](http://sean-smith.me/assets/portfolio/25-react-projects/index.html)
 - Create a Simple To-Do App With React - [Chris Nwamba](https://scotch.io/tutorials/create-a-simple-to-do-app-with-react).
+- [Building a chat app with React.js and Chatkit](https://scrimba.com/g/greactchatkit) - Per Harald Borgen on [Scrimba](https://scrimba.com/).
 
 ### HTML & CSS
 
