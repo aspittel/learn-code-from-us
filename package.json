@@ -6,6 +6,7 @@
     "axios": "^0.18.0",
     "node-sass": "^4.9.4",
     "react": "^16.5.2",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.5.2",
     "react-modal": "^3.6.1",
     "react-router-dom": "^4.3.1",
@@ -16,15 +17,46 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:all": "standard && prettier-standard 'src/**/*.{js,jsx}' && react-scripts test",
+    "lint:run": "standard",
+    "lint:prettier": "prettier-standard 'src/**/*.{js,jsx}'",
+    "lint:fix": "standard --fix",
     "eject": "react-scripts eject"
   },
+  "standard": {
+    "globals": [
+      "it",
+      "fetch"
+    ]
+  },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "rules": {
+      "eqeqeq": 1
+    }
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "airtable": "^0.5.7",
+    "dotenv": "^6.1.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.6.0",
+    "eslint": "5.6.0",
+    "jest-environment-enzyme": "^7.0.0",
+    "jest-enzyme": "^7.0.0",
+    "prettier-standard": "^8.0.1",
+    "prop-types": "^15.6.2",
+    "react-test-renderer": "^16.5.2",
+    "standard": "^12.0.1"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
 }
