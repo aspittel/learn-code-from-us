@@ -8,6 +8,12 @@ The following text was taken from the about page on [https://learncodefrom.us](h
 
 [Here](https://dev.to/aspittel/introducing-learn-code-from-us-oe1) is a blog post with more about the project.
 
+## Contributing
+
+If you would like to contribute, please add an issue or comment on one of the ones that are open that you are working on it. Then submit a pull request!
+
+If you would like to discuss the project in more detail [here](https://dev.to/learncodefromus/learn-code-from-us-developer-thread-3a5a) is an open thread where you can ask code questions or discuss the future of the project!
+
 ## Adding New People
 
 On the user side, please add a new person through [this form](https://airtable.com/shrYbUMMlR1iVpA1l). 
