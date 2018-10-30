@@ -35,7 +35,7 @@ If you are new to coding and would like to know what each part of the setup does
 You will need the following software to be installed in order to build the code within this repository:
 
 - A git Client
-- A Text Editor
+- A Text Editor (Eg. Notepad++)
 - [Node](https://nodejs.org/en/)
 
 ## Set up instructions
