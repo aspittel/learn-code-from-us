@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import ReactTooltip from 'react-tooltip'
 
 import './SiteLink.scss'
 
@@ -16,7 +15,6 @@ const SiteLink = ({ link, icon, tooltipText }) => {
       rel='noopener noreferrer'
     >
       <i className={`${icon} fa-2x`} />
-      <ReactTooltip />
     </a>
   )
 }
