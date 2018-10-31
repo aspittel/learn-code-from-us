@@ -29,11 +29,8 @@
 - [Building a chat app with React.js and Chatkit](https://scrimba.com/g/greactchatkit) - Per Harald Borgen on [Scrimba](https://scrimba.com/).
 
 ### HTML & CSS
+- [A Complete Beginner's Guide to HTML](https://www.w3schools.com/html/)
+- [Basic to advanced tutorial on CSS](https://www.w3schools.com/css/)
 
-#### Beginner
-
-#### Advanced
-
-### Add Other technology
 
 
