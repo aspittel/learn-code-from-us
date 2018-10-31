@@ -1,5 +1,4 @@
-
-
+$transition_time: all .3s;
 .content {
   height: 100%;
   max-width: 100%;
@@ -17,12 +16,12 @@
   border: 1.5px solid lightgrey;
   border-radius: 1%;
 
-  transition: all .3s;
+  transition: $transition_time;
 
   &:hover {
     box-shadow: 2px 2px 10px #33333359;
     transform: scale(1.01);
-    transition: all .3s;
+    transition: $transition_time;
   }
 
   h3 {
@@ -49,19 +48,26 @@
   }
 
   .links {
-    transition: all .3s;
+    transition: $transition_time;
 
     a {
       padding: 10px;
       border-radius: 3px;
+      background: transparent;
+      transition: $transition_time;
+
+      svg {
+        transition: $transition_time;
+      }
 
       &:hover {
         background: #7b8acc;
         box-shadow: 2px 2px 10px #33333359;
-        transition: all .3s;
+        transition: $transition_time;
 
         svg {
           color: #fff;
+          transition: $transition_time;
         }
       }
     }
