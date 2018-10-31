@@ -18,7 +18,7 @@ const Card = props => {
       {project.Image && (
         <div class="profileImageContainer">
           <img
-            src={project.Image[0].thumbnails.large.url}
+            src={project.Image[0].thumbnails.large.url ? project.Image[0].thumbnails.large.url : 'https://api.adorable.io/avatars/285/learn-code-from-us-default-avtr.png'}
             alt={"Picture of " + project.Name}
             className="profileImage"
           />
