@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-
 import './SiteLink.scss'
 
 const SiteLink = ({ link, icon, tooltipText }) => {
