@@ -3,6 +3,16 @@ import Link from '../Link'
 import './Header.scss'
 
 const Header = props => {
+
+  const ifCurrentPageIsHome = () => {
+    const pages = window.location.href.split('/');
+    const currentPage = pages[pages.length-1];
+    return currentPage === '';
+  }
+
+  const aboutLink = (<Link to='/about' className='link'> About this Site </Link>);
+  const homeLink = (<Link to='/' className='link'> Return to Dasbboard </Link>);
+
   return (
     <header>
       <h1>
@@ -12,9 +22,9 @@ const Header = props => {
         People from underrepresented groups in tech who create awesome
         programming resources
       </h4>
-      <Link to='/about' className='about-link'>
-        About this Site
-      </Link>
+      {
+        ifCurrentPageIsHome() ? aboutLink : homeLink
+      } 
     </header>
   )
 }
