@@ -4,14 +4,15 @@ import './Header.scss'
 
 const Header = props => {
 
-  const ifCurrentPageIsHome = () => {
+  // If current page is home, return true.
+  const isCurrentPageHome = () => {
     const pages = window.location.href.split('/');
     const currentPage = pages[pages.length-1];
     return currentPage === '';
   }
 
   const aboutLink = (<Link to='/about' className='link'> About this Site </Link>);
-  const homeLink = (<Link to='/' className='link'> Return to Dasbboard </Link>);
+  const homeLink = (<Link to='/' className='link'> Return to Home </Link>);
 
   return (
     <header>
@@ -23,7 +24,7 @@ const Header = props => {
         programming resources
       </h4>
       {
-        ifCurrentPageIsHome() ? aboutLink : homeLink
+        isCurrentPageHome() ? aboutLink : homeLink
       } 
     </header>
   )
