@@ -32,7 +32,11 @@
   "eslintConfig": {
     "extends": "react-app",
     "rules": {
-      "eqeqeq": 1
+      "eqeqeq": 1,
+      "semi": [
+        "error",
+        "never"
+      ]
     }
   },
   "browserslist": [
