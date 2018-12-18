@@ -17,7 +17,7 @@ const Card = props => {
       <div className="content">
         <h2>{project.Name}</h2>
         {project.Image && (
-          <div class="profileImageContainer">
+          <div className="profileImageContainer">
             <img
               src={project.Image[0].thumbnails.large.url}
               alt={project.Name}
