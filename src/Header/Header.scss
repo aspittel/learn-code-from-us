@@ -5,8 +5,12 @@ header {
   h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 50px;
     margin-bottom: 0px;
+    background: linear-gradient(90deg, #f8bbd0 0%, #e1bee7 16.66%, #bbdefb 33.32%, #b2ebf2 49.48%, #c8e6c9 66.64%, #fff9c4 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: .5px #00000049;
   }
 
   a {
